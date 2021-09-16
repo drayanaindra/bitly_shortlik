@@ -52,4 +52,5 @@ def create_short_link():
         writer.writerows(csv_data)
 
 
-create_short_link()
+if __name__ == "__main__":
+    create_short_link()
